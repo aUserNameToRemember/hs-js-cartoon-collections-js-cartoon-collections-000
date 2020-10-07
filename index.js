@@ -1,10 +1,10 @@
 function dwarfRollCall(dwarves) {
-  var line = []
+  var snowWhite = []
     for (let i = 0; i < dwarves.length; i++ ) {
     
-    line.push(`${i+1}. ${dwarves[i]} `)
+    snowWhite.push(`${i+1}. ${dwarves[i]} `)
     }
-  return line.join("")
+  return snowWhite.join("")
 }
 
 function summonCaptainPlanet(planeteerCalls) {
@@ -36,8 +36,20 @@ for(let i = 0; i < foods.length; i++) {
     return "gouda"  
     } else if (foods[i] === "camembert") {
       return foods[i]
-    }
+    } else if (foods[i] === "swiss") {
+      return foods[i]
+}
 }  
   return "no cheese!"
 }
 
+function wordsWithB(words) {
+var bArray = []
+ for (let i = 0; i < words.length; i++){
+  if(words[i].startsWith("b")){
+      bArray.push(words[i])
+    }
+  }
+ }
+ }
+ 
